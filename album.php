@@ -58,13 +58,13 @@ if(!$_GET['id']||!is_numeric($_GET['id'])){
     <div class="container">                    
             <div class="panel panel-info" >
                     <div class="panel-heading">
-                        <div class="panel-title"><?=$name?> - DunludLagu Gratis</div>
+                        <div class="panel-title"><?=$name?> - DownloadLagu Free</div>
                     </div>    
                     <div class="panel-body">
 						<div class="text-center">
 							<img class="img-circle" height="128" width="128" src="<?=$json->albuminfo->picUrl?>">
 							<h2><?=$name?></h2>
-							<p><small><i>Waktu rilis: <?=base64_decode($json->albuminfo->date)?></i></small></p>
+							<p><small><i>Waktu rilis lagu : <?=base64_decode($json->albuminfo->date)?></i></small></p>
 						</div><hr>
 							<div class="table-responsive">
 								<table class="table table-striped table-bordered table-hover">
@@ -73,8 +73,8 @@ if(!$_GET['id']||!is_numeric($_GET['id'])){
 											<th>#</th>
 											<th>Song Name</th>
 											<th>Artis</th>
-											<th>Album</th>
-											<th>Playtime</th>
+											<th>Albums</th>
+											<th>Playtimes</th>
 										</tr>
 									</thead>
 								<tbody>
